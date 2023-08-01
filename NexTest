@@ -2,7 +2,7 @@ import pytesseract
 from PIL import Image
  
 # Open the image file
-img = Image.open('samplepdf0.png')
+img = Image.open('pdfsample0.png')
  
 # Perform OCR using PyTesseract
 text = pytesseract.image_to_string(img)
